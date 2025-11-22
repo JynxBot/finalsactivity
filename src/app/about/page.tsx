@@ -34,7 +34,7 @@ export default function AboutArtistPage() {
 
             <div className="relative w-full h-56 md:h-48 lg:h-64 rounded-md overflow-hidden">
               <Image
-                src={heroImage}
+                src="/images/hero.png"
                 alt="Daniel Caesar hero"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -95,7 +95,7 @@ export default function AboutArtistPage() {
             </div>
 
             <div className="rounded-lg overflow-hidden">
-              <Image src={gridImage} alt="Son of Spergy preview" width={400} height={400} className="object-cover rounded-md" />
+              <Image src="/images/sonofspergy.png" alt="Son of Spergy preview" width={400} height={400} className="object-cover rounded-md" />
               <p className="mt-2 text-sm font-medium">Son of Spergy</p>
             </div>
           </div>
