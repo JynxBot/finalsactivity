@@ -1,29 +1,44 @@
-# Activity 2 Commitgit 
+🎧 Daniel Caesar Albums
 
-Website for activity react webdev
+A modern, responsive web experience showcasing Daniel Caesar’s albums and introducing the artist. Built with Next.js, TailwindCSS, and deployed via Vercel, this project provides a clean discography layout, an About the Artist section, and external shop links — all wrapped in a sleek UI.
 
-## What's next? How do I make an app with this?
+🚀 Features
+🎵 Album Showcase (Bento Grid Layout)
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Responsive, visually engaging bento-style grid
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Each album card includes artwork, a description, and links directly to Spotify
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+Fully optimized images using next/image
 
-## Learn More
+Smooth transitions and hover effects
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+🧑‍🎤 About the Artist
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+Dedicated page introducing Daniel Caesar
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+Biography, musical background, and quick facts
 
-## How do I deploy this?
+Additional preview images and links to Spotify + Instagram
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+🛒 Shop Link
+
+Navbar “Shop” button linking to the official Daniel Caesar Store
+
+Opens safely in a new tab
+
+📱 Responsive Navigation
+
+Mobile-friendly hamburger menu
+
+Desktop and mobile layouts both polished and intuitive
+
+Smooth state transitions with React’s useState
+
+🎨 Modern Styling
+
+Powered by TailwindCSS
+
+Clean, minimal, music-inspired aesthetic
+
+Rounded cards, soft shadows, immersive artwork
