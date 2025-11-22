@@ -5,13 +5,8 @@ import { Menu, X, Headphones } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 
-const MENU_ITEMS = [
-  { label: "Products", href: "#" },
-  { label: "Use cases", href: "#" },
-  { label: "Docs", href: "/docspage" },
-  { label: "Pricing", href: "#" },
-  { label: "FAQ", href: "#" },
-] as const;
+// No menu items anymore
+const MENU_ITEMS: any[] = [];
 
 interface NavMenuItemsProps {
   className?: string;
@@ -61,9 +56,11 @@ export function LpNavbar1() {
         {/* Desktop Navigation */}
         <div className="hidden w-full flex-row justify-end gap-5 md:flex">
           <NavMenuItems />
-          <Link href="#">
+
+          {/* Updated button */}
+          <Link href="/about">
             <Button className="bg-blue-900 text-blue-300 hover:bg-blue-800">
-              Get started
+              About the Artist
             </Button>
           </Link>
         </div>
@@ -72,9 +69,11 @@ export function LpNavbar1() {
         {isMenuOpen && (
           <div className="flex w-full flex-col justify-end gap-5 pb-2.5 md:hidden">
             <NavMenuItems />
-            <Link href="#">
+
+            {/* Updated mobile button */}
+            <Link href="/about">
               <Button className="w-full bg-blue-900 text-blue-300 hover:bg-blue-800">
-                Get started
+                About the Artist
               </Button>
             </Link>
           </div>

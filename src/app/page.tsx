@@ -49,7 +49,7 @@ export default function BentoGrid1() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-npm run dev1 gap-3 md:grid-cols-2 lg:grid-cols-3">
           {/* Tall Feature Card - Left */}
           <Card className="rounded-xl lg:row-span-2 hover:shadow-lg transition-all duration-300">
             <CardHeader>
